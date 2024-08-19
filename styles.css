@@ -20,11 +20,13 @@
     background-repeat: no-repeat;
     background-position: center;
   font-family: Josfen-2;
+ 
   
   /* color: rgb(75, 38, 20); */
   color: rgb(21, 8, 1);
   
   }
+  
   /* Navigation Bar */
   nav{
    display: flex;
