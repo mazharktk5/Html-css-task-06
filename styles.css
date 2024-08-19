@@ -12,7 +12,7 @@
     src: url(./Fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
   }
   body{
-   background-image: linear-gradient(rgba(255, 255, 255, 0.395), rgba(125, 119, 119, 0.395)), url(./images/back5.jfif);
+   background-image: linear-gradient(rgba(255, 255, 255, 0.395), rgba(125, 119, 119, 0.395)), url(./Assets/images/back5.jfif);
     /* background-image:  linear-gradient(rgba(255, 255, 255, 0.395), rgba(255, 255, 255, 0.395)), 
     url(./Images/Coffee\ espresso\ template1.jpg); */
     background-size: cover;
@@ -55,5 +55,121 @@
     color: #fff;
     }
   
+
+
+      /* Home */
+      .home{
+        display: flex;
+        justify-content: space-between;
+      }
+      .home-heading{
+        /* padding: 150px 70px; */
+        padding: 135px 70px;
+    
+        font-size: large;
+        font-family: Josfen;
+      }
+      .home-heading h1{
+        /* font-size:45px; */
+        font-size:60px;
+      }
+      h1 em{
+      /* font-size: 60px; */
+      font-size: 60px;
+      font-style: normal; 
+      }
+      .home-heading p{
+        padding:5px 0;
+        font-size: 30px;
+      }
+      
+      .home-heading button {
+        text-decoration: none;
+        /* color: rgb(75, 38, 20); */
+        color: rgb(193, 162, 146);
+        border: 1px solid rgb(75, 38, 20);
+        padding: 15px;
+        background-color: transparent;      
+        background-color: rgb(75, 38, 20);;      
+        margin-left: 20%;
+        margin-top: 15px;
+        border-radius: 5px;
+      }
+      
+      .home-heading button:hover {
+        background-color: rgb(75, 38, 20);
+        color: #fff;
+      }
+      
+        
+      .Offer{
+        margin-top: -90px;
+        margin-left: -100px;
+    
+      }
+  
+    /* .Offer{
+      margin-top: -63px;
+      margin-left: -120px;
+    } */
+  
+     
+  
+       
+   
+      .Offer img{
+        width: 400px;
+        position: relative;
+        animation: slideInFromLeft 2s ease-in-out forwards;
+        opacity: 1;
+      
+      }
+  
+      @keyframes slideInFromLeft {
+        from {
+          transform: translateX(0);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(100%);
+          opacity: 1;
+        }
+      }
+      
+      
+      
+    
+    .home-image img{
+        width: 400px;
+      }
+  
+  
+    .home-image {
+      position: relative;
+      /* animation-name: move;
+      animation-duration: 2s;  
+      animation-fill-mode: both;
+      animation-iteration-count: 1; */
+      animation: slideInFromRight 1s ease-in-out forwards;
+      opacity: 1;
+    
+    }
+    
+    /* @keyframes move {
+      from {right:0px;}
+      to {right: 100px; }
+    } */
+  
+  
+    @keyframes slideInFromRight {
+      from {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
 
    
