@@ -172,4 +172,50 @@
       }
     }
 
+
+
+    /* Coffee */
+    .coffee-container {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 40px;
+     
+    }
+  
+  .coffee-container .coffee-cup{
+    width: 190px;
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.265),rgba(0, 0, 0, 0.265)) , 
+    url(./Assets/images/background2.jfif);
+    background-size: cover;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    transition: transform 0.4s ease-in 0.09s;
+
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
+    
+  .coffee-container .coffee-cup:hover {
+    transform: scale(1.1);
+  }
+  
+  .coffee-cup img{
+    width: 150px;
+    height: 130px;
+    position: relative;
+    top: -40px;
+    border-radius: 50%;
+  }
+  .coffee-cup h2{
+    margin-top: -15px;
+  }
+  .coffee-cup p{
+    font-size: 13px;
+    padding: 05px;
+  }
+
    
