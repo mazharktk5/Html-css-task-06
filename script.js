@@ -7,3 +7,5 @@ window.addEventListener('scroll', function() {
       image.classList.add('animate');
     }
   });
+
+
